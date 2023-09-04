@@ -479,7 +479,19 @@ main .container-2{
 
 
 
-
+@media (max-width: 320px){
+    .container-6 {
+        width: 107%;
+        height: 552px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        text-align: center;
+    }
+    .form .detalis .inputs {
+        gap: 6px 2px;
+    }
+}
 
 @media (max-width: 768px){
     /* start-container-1  */
@@ -593,9 +605,9 @@ main .container-2{
     .time {
         width: 100%;
     }
-    .form .detalis .inputs {
+    /* .form .detalis .inputs {
         gap: 10px 11px;
-    }
+    } */
     /* end-container-6  */
     /* start-container-7  */
     .container-7{
